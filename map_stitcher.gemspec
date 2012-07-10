@@ -17,6 +17,9 @@ Gem::Specification.new do |s|
     "lib/map_stitcher/colors.txt"
   ]
 
-  s.add_runtime_dependency "nbtfile"
-  s.add_runtime_dependency "chunky_png"
+  s.add_runtime_dependency "nbtfile", "0.2.0"
+  s.add_runtime_dependency "chunky_png", "1.2.5"
+
+  s.add_development_dependency "rspec", "2.11.0"
+  s.add_development_dependency "mocha", "0.12.0"
 end
