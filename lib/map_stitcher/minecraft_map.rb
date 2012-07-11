@@ -1,5 +1,7 @@
+require File.dirname(__FILE__) + "/map_colors"
+
 class MinecraftMap
-  include 'colors'
+  include MapColors
   
   def initialize(raw_map_data)
     @map_data = NBTFile.load(raw_map_data)[1]['data']

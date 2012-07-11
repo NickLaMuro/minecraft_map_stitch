@@ -3,7 +3,7 @@ require File.expand_path('../lib/map_stitcher/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'map_stitcher'
-  s.version     = MinecraftMapStitch::VERSION
+  s.version     = MapStitcher::VERSION
   s.date        = '2012-07-09'
   s.summary     = "Stitch together Minecraft maps"
   s.description = "This gem takes in the directory of your Minecraft map_*.dat files and combines them all into a single image."
